@@ -5,6 +5,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 100;
 
   a {
     transition: all 0.4s ease;
@@ -104,6 +106,26 @@ nav {
         }
 
       }
+
+      .logout {
+        padding: 12px 24px;
+        margin: 20px 20px 20px 0;
+        border: none;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: inherit;
+        cursor: pointer;
+        transition: all 0.4s ease;
+
+        @include sm {
+          display: none;
+        }
+
+        &:hover {
+          scale: 1.05;
+        }
+      }
     }
 
     .register {
@@ -144,8 +166,22 @@ nav {
         right: 0;
       }
 
+      .logout {
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-family: inherit;
+        font-size: inherit;
+        cursor: pointer;
+
+        &:hover {
+          scale: 1.05;
+        }
+      }
+
       @include sm {
-        a {
+        a,
+        .logout {
           display: initial;
         }
       }

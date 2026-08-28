@@ -13,7 +13,7 @@ function HomePage() {
         <div className="wrapper">
           <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
           <p>
-            Experience real estate with confidence and clarity. Led by Pati, we offer carefully curated properties, market expertise, and a seamless buying and selling experience designed around your lifestyle and aspirations.
+            Experience real estate with confidence and clarity. Led by Harshita, we offer carefully curated properties, market expertise, and a seamless buying and selling experience designed around your lifestyle and aspirations.
           </p>
           <SearchBar />
           <div className="boxes">

@@ -68,8 +68,8 @@ function ProfileUpdatePage() {
         <img src={avatar[0] || currentUser.avatar || "/noavatar.jpg"} alt="" className="avatar" />
         <UploadWidget
           uwConfig={{
-            cloudName: "dgufjpcu8",
-            uploadPreset: "patiestate",
+            cloudName: "o6i0axbk",
+            uploadPreset: "estate",
             multiple: false,
             maxImageFileSize: 2000000,
             folder: "avatars",
